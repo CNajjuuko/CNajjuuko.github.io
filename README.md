@@ -49,7 +49,7 @@ IEEE. https://ieeexplore.ieee.org/document/9576962
 
 ## CV
 📄 [View My CV](Claire Najjuuko CV_Mar2025.pdf)  
-🔬 [Google Scholar](https://scholar.google.com/citations?user=Claire Najjuuko)
+🔬 [Google Scholar](https://scholar.google.com/citations?user=ClaireNajjuuko)
 
 
 
