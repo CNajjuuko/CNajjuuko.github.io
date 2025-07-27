@@ -1,19 +1,19 @@
 # Data Science Ph.D student
 
-#### Technical Skills
-- Programming and Scripting Languages: Python, R, Matlab, LaTeX
-- Libraries and Frameworks:
-  - ML/DL: scikit-learn, TensorFlow, PyTorch, XGBoost
-  - LLMs/NLP: HuggingFace Transformers, spaCy, OpenAI APIs
-- Tools and Environments: Jupyter, Git/GitHub, Docker, VSCode
-- Statistical Software: STATA, SPSS
-
 ## About Me
 I am a third year Ph.D. student in the Data and Computational Sciences Program at Washington University in St. Louis. I am part of the AI for Health Institute Lab. My research interests lie at the intersection of data science and health. My work focuses on leveraging advanced computational methods, including machine learning predictive models and large language models, to drive innovation in healthcare delivery and improve public health outcomes. I am particularly interested in global health, child health, HIV care, and healthcare-associated infections surveillance.
 
 ## Education
 - Ph.D., Data and Computational Sciences | Washington University in St. Louis, St. Louis, MO, USA (2023-date) 
 - B.S., Telecommunications Engineering | Makerere University Kampala, UG (2016-2021)
+
+## Technical Skills
+- Programming and Scripting Languages: Python, R, Matlab, LaTeX
+- Libraries and Frameworks:
+  - ML/DL: scikit-learn, TensorFlow, PyTorch, XGBoost
+  - LLMs/NLP: HuggingFace Transformers, spaCy, OpenAI APIs
+- Tools and Environments: Jupyter, Git/GitHub, Docker, VSCode
+- Statistical Software: STATA, SPSS
 
 ## Publications
 - Najjuuko C, Brathwaite R, Mutumba M, Childress S, Nannono S, Namatovu P, Lu C, Ssewamala FM. ”Identifying Predictors of Problematic Substance Use among Youth living with HIV in Uganda: A Machine Learning Approach.
