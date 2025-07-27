@@ -12,7 +12,7 @@ I am a third year Ph.D. student in the Data and Computational Sciences Program a
 - Tools and Environments: Jupyter, Git/GitHub, Docker, VSCode
 - Libraries and Frameworks:
   - ML/DL: scikit-learn, TensorFlow, PyTorch, XGBoost
-  - LLMs/NLP: HuggingFace Transformers, spaCy, OpenAI APIs
+  - LLMs/NLP: HuggingFace Transformers, spaCy, OpenAI API
 - Statistical Software: STATA, SPSS
 
 ## Publications
