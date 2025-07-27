@@ -5,7 +5,7 @@ I am a third year Ph.D. student in the Data and Computational Sciences Program a
 
 ## Education
 - Ph.D., Data and Computational Sciences | Washington University in St. Louis, St. Louis, MO, USA (2023-date) 
-- B.S., Telecommunications Engineering   | Makerere University Kampala, UG (2016-2021)
+- B.S., Telecommunications Engineering   | Makerere University, Kampala, UG (2016-2021)
 
 ## Technical Skills
 - Programming and Scripting Languages: Python, R, Matlab, LaTeX
