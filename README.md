@@ -8,12 +8,11 @@ I am a third year Ph.D. student in the Data and Computational Sciences Program a
 - B.S., Telecommunications Engineering | Makerere University Kampala, UG (2016-2021)
 
 ## Technical Skills
-- Programming and Scripting Languages: Python, R, Matlab, LaTeX
+- Programming and Scripting Languages: Python, R, Matlab, LaTeX, STATA, SPSS
+- Tools and Environments: Jupyter, Git/GitHub, Docker, VSCode
 - Libraries and Frameworks:
   - ML/DL: scikit-learn, TensorFlow, PyTorch, XGBoost
   - LLMs/NLP: HuggingFace Transformers, spaCy, OpenAI APIs
-- Tools and Environments: Jupyter, Git/GitHub, Docker, VSCode
-- Statistical Software: STATA, SPSS
 
 ## Publications
 - Najjuuko C, Brathwaite R, Mutumba M, Childress S, Nannono S, Namatovu P, Lu C, Ssewamala FM. ”Identifying Predictors of Problematic Substance Use among Youth living with HIV in Uganda: A Machine Learning Approach.
