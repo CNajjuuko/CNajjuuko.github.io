@@ -49,7 +49,7 @@ munity engagement in rural Uganda. Design Science. 2023 Jan;9:e12. https://doi:1
 - Najjuuko C, Ayebare GK, Lukanga R, Mugume E, Okello D. ”A survey of 5G for rural broadband
 connectivity”. In2021 IST-Africa Conference (IST-Africa) 2021 May 10 (pp. 1-10). IEEE. https:
 //ieeexplore.ieee.org/abstract/document/9576832
-Lukanga R, Ayebare GK, Najjuuko C, Mugume E, Okello D. ”Leveraging TV white spaces for
+- Lukanga R, Ayebare GK, Najjuuko C, Mugume E, Okello D. ”Leveraging TV white spaces for
 rural broadband connectivity”. In2021 IST-Africa Conference (IST-Africa) 2021 May 10 (pp. 1-8).
 IEEE. https://ieeexplore.ieee.org/document/9576962
 
