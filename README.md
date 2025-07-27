@@ -26,8 +26,7 @@ https://doi.org/10.1007/s10826-025-03015-0
 - Nabunya P, Migadde H, Namuwonge F, Mugisha J, Kirabo W, Ssentumbwe V, Najjuuko C,
 Raymond A, Bahar OS, Mwebembezi A, McKay MM. ”Feasibility and acceptability of Group-
 based stigma reduction interventions for adolescents living with HIV and their caregivers: the Su-
-ubi4Stigma Randomized Clinical Trial (20202022)”. AIDS and Behavior. 2024 Feb 3:1-2. https:
-//doi.org/10.1007/s10461-024-04284-4
+ubi4Stigma Randomized Clinical Trial (20202022)”. AIDS and Behavior. 2024 Feb 3:1-2. https://doi.org/10.1007/s10461-024-04284-4
 - Nabunya P, Ssewamala FM, Kizito S, Mugisha J, Brathwaite R, Neilands TB, Migadde H, Na-
 muwonge F, Ssentumbwe V, Najjuuko C, Bahar OS. ”Preliminary Impact of Group-Based In-
 terventions on Stigma, Mental Health, and Treatment Adherence Among Adolescents Living with
@@ -36,19 +35,16 @@ https://doi.org/10.1016/j.jpeds.2024.113983
 - Kizito S, Namuwonge F, Nabayinda J, Nalwanga D, Najjuuko C, Nabunya P, Atwebembere R,
 Namuyaba OI, Mukasa M, Ssewamala FM. ”A Cluster-Randomized Controlled Trial of an Eco-
 nomic Strengthening Intervention to Enhance Antiretroviral Therapy Adherence among Adoles-
-cents Living with HIV”. AIDS and Behavior. 2024 May;28(5):1570-80. https://doi.org/10.
-1007/s10461-024-04268-4
+cents Living with HIV”. AIDS and Behavior. 2024 May;28(5):1570-80. https://doi.org/10.1007/s10461-024-04268-4
 - Nabunya P, Cavazos-Rehg P, Mugisha J, Kasson E, Namuyaba OI, Najjuuko C, Nsubuga E, Fili-
 atreau LM, Mwebembezi A, Ssewamala FM. ”An mHealth Intervention to Address Depression and
 Improve Antiretroviral Therapy Adherence Among Youths Living With HIV in Uganda: Protocol
 for a Pilot Randomized Controlled Trial”. JMIR Research Protocols. 2024 Mar 8;13(1):e54635.
 https://doi:10.2196/54635
 - White PJ, Okello D, Casey BP, Najjuuko C, Lukanga R. Co-designing with engineers for com-
-munity engagement in rural Uganda. Design Science. 2023 Jan;9:e12. https://doi:10.1017/dsj.
-2023.10
+munity engagement in rural Uganda. Design Science. 2023 Jan;9:e12. https://doi:10.1017/dsj.2023.10
 - Najjuuko C, Ayebare GK, Lukanga R, Mugume E, Okello D. ”A survey of 5G for rural broadband
-connectivity”. In2021 IST-Africa Conference (IST-Africa) 2021 May 10 (pp. 1-10). IEEE. https:
-//ieeexplore.ieee.org/abstract/document/9576832
+connectivity”. In2021 IST-Africa Conference (IST-Africa) 2021 May 10 (pp. 1-10). IEEE. https://ieeexplore.ieee.org/abstract/document/9576832
 - Lukanga R, Ayebare GK, Najjuuko C, Mugume E, Okello D. ”Leveraging TV white spaces for
 rural broadband connectivity”. In2021 IST-Africa Conference (IST-Africa) 2021 May 10 (pp. 1-8).
 IEEE. https://ieeexplore.ieee.org/document/9576962
