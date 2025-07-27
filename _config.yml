@@ -2,6 +2,6 @@ title: Claire Najjuuko
 # logo: /assets/img/headshot_circle.png
 logo: ClaireProfilePhoto.jpg
 description: Data Science PhD student
-# show_downloads: true
+show_downloads: true
 theme: jekyll-theme-minimal
 # theme: jekyll-theme-modernist
