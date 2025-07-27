@@ -48,6 +48,8 @@ rural broadband connectivity”. In2021 IST-Africa Conference (IST-Africa) 2021 
 IEEE. https://ieeexplore.ieee.org/document/9576962
 
 ## CV
+📄 [View My CV](CV_ClaireNajjuuko.pdf)  
+🔬 [Google Scholar](https://scholar.google.com/citations?user=Claire Najjuuko)
 
 
 
