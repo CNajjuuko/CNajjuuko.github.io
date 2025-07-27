@@ -3,7 +3,10 @@ title: Claire Najjuuko
 logo: ClaireProfilePhoto.jpg
 description: Data Science Ph.D student
 #show_downloads: true
-# theme: jekyll-theme-minimal
-theme: jekyll-theme-minima
-# theme: jekyll-theme-modernist
-googlescholar: 
+theme: jekyll-theme-minimal
+email: c.najjuuko@wustl.edu
+googlescholar: "https://scholar.google.com/citations?user=ClaireNajjuuko"
+
+
+# [View My CV](Claire Najjuuko CV_Mar2025.pdf)  
+# [Google Scholar](https://scholar.google.com/citations?user=ClaireNajjuuko)
