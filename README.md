@@ -21,6 +21,7 @@ I am a third year Ph.D. student in the Data and Computational Sciences Program a
 - Statistical Software: STATA, SPSS
 
 ## Publications
+### 2025
 - **Najjuuko C**, Brathwaite R, Mutumba M, Childress S, Nannono S, Namatovu P, Lu C, Ssewamala FM. Identifying Predictors of Problematic Substance Use Among Youth Living with HIV in Uganda: A Machine Learning Approach. AIDS and Behavior. 2025 Sep 18:1-2. [paper](https://doi.org/10.1007/s10461-025-04840-6)
 - **Najjuuko C**, Xu Z, Kizito S, Lu C, Ssewamala FM. Patterns of maternal and child health services utilization and associated socioeconomic disparities in sub-Saharan Africa. Nature Communications. 2025; 16:7840. [paper](https://doi.org/10.1038/s41467-025-61350-8)
 - **Najjuuko C**, Brathwaite R, Xu Z, Kizito S, Lu C, Ssewamala FM. Using machine learning to
@@ -31,6 +32,8 @@ J, Sensoy Bahar O, Mwebembezi A, Ssewamala FM. The Impact of Group-Based Interve
 on Emotional and Behavioral Difficulties among Adolescents Living with HIV: The Suubi4Stigma
 Cluster Randomized Controlled Trial. Journal of Child and Family Studies. 2025 Feb 12:1-9.
 [paper](https://doi.org/10.1007/s10826-025-03015-0)
+
+### 2024
 - Nabunya P, Migadde H, Namuwonge F, Mugisha J, Kirabo W, Ssentumbwe V, **Najjuuko C**,
 Raymond A, Bahar OS, Mwebembezi A, McKay MM. ”Feasibility and acceptability of Group-
 based stigma reduction interventions for adolescents living with HIV and their caregivers: the Su-
@@ -49,8 +52,12 @@ atreau LM, Mwebembezi A, Ssewamala FM. ”An mHealth Intervention to Address Dep
 Improve Antiretroviral Therapy Adherence Among Youths Living With HIV in Uganda: Protocol
 for a Pilot Randomized Controlled Trial”. JMIR Research Protocols. 2024 Mar 8;13(1):e54635.
 [paper](https://doi:10.2196/54635)
+
+### 2023
 - White PJ, Okello D, Casey BP, **Najjuuko C**, Lukanga R. Co-designing with engineers for com-
 munity engagement in rural Uganda. Design Science. 2023 Jan;9:e12. [paper](https://doi:10.1017/dsj.2023.10)
+
+### 2021
 - **Najjuuko C**, Ayebare GK, Lukanga R, Mugume E, Okello D. ”A survey of 5G for rural broadband
 connectivity”. In2021 IST-Africa Conference (IST-Africa) 2021 May 10 (pp. 1-10). IEEE. [paper](https://ieeexplore.ieee.org/abstract/document/9576832)
 - Lukanga R, Ayebare GK, **Najjuuko C**, Mugume E, Okello D. ”Leveraging TV white spaces for
