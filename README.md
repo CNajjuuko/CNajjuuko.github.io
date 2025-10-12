@@ -8,7 +8,7 @@ I am a third year Ph.D. student in the Data and Computational Sciences Program a
 - B.S., Telecommunications Engineering   | Makerere University, Kampala, UG (2016-2021)
 
 ## Projects
-- Uncertainty Estimation for Large Language Models
+- Uncertainty Estimation in Large Language Models
 - Large Language Models for HIV treatment outcomes monitoring
 - Harnessing Large Language Models for transition to automated Catheter-Associated Urinary Tract Infection Surveillance
 
