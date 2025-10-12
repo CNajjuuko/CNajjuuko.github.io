@@ -57,3 +57,6 @@ connectivity”. In2021 IST-Africa Conference (IST-Africa) 2021 May 10 (pp. 1-10
 rural broadband connectivity”. In2021 IST-Africa Conference (IST-Africa) 2021 May 10 (pp. 1-8).
 IEEE. https://ieeexplore.ieee.org/document/9576962
 
+## News
+- [Machine learning could help predict adherence to HIV treatment in adolescents] https://engineering.washu.edu/news/2025/Machine-learning-could-help-predict-adherence-to-HIV-treatment-in-adolescents.html
+
