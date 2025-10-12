@@ -58,5 +58,7 @@ rural broadband connectivity”. In2021 IST-Africa Conference (IST-Africa) 2021 
 IEEE. https://ieeexplore.ieee.org/document/9576962
 
 ## News
-- [Machine learning could help predict adherence to HIV treatment in adolescents] https://engineering.washu.edu/news/2025/Machine-learning-could-help-predict-adherence-to-HIV-treatment-in-adolescents.html
+- **Oct 2025** — “Washington University spotlight on AI for Health.” [WU News](https://example.com/wu-spotlight)
+- **Sep 2025** — “Student builds ML model for HIV care.” [STL Today](https://example.com/stl-article)
+- **Mar 2025** - [Machine learning could help predict adherence to HIV treatment in adolescents](https://engineering.washu.edu/news/2025/Machine-learning-could-help-predict-adherence-to-HIV-treatment-in-adolescents.html)
 
