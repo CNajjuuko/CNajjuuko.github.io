@@ -1,3 +1,5 @@
+theme: jekyll-theme-minimal
+
 title: Claire Najjuuko
 # logo: /assets/img/headshot_circle.png
 logo: ClaireProfilePhoto.jpg
@@ -6,8 +8,6 @@ show_downloads: true
 
 [View My CV](Claire Najjuuko CV_Mar2025.pdf)  
 [Google Scholar](https://scholar.google.com/citations?user=ClaireNajjuuko)
-
-theme: jekyll-theme-minimal
 
 # email: c.najjuuko@wustl.edu
 # googlescholar: "https://scholar.google.com/citations?user=ClaireNajjuuko"
