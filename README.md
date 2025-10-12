@@ -9,7 +9,7 @@ I am a third year Ph.D. student in the Data and Computational Sciences Program a
 
 ## Projects
 - Uncertainty Estimation in Large Language Models
-- Large Language Models for HIV treatment outcomes monitoring
+- Enhancing HIV treatment outcomes monitoring using Machine Learning Predictive Tools
 - Harnessing Large Language Models for transition to automated Catheter-Associated Urinary Tract Infection Surveillance
 
 ## Technical Skills
@@ -21,7 +21,7 @@ I am a third year Ph.D. student in the Data and Computational Sciences Program a
 - Statistical Software: STATA, SPSS
 
 ## Publications
-- Najjuuko C, Brathwaite R, Mutumba M, Childress S, Nannono S, Namatovu P, Lu C, Ssewamala FM. Identifying Predictors of Problematic Substance Use Among Youth Living with HIV in Uganda: A Machine Learning Approach. AIDS and Behavior. 2025 Sep 18:1-2.
+- Najjuuko C, Brathwaite R, Mutumba M, Childress S, Nannono S, Namatovu P, Lu C, Ssewamala FM. Identifying Predictors of Problematic Substance Use Among Youth Living with HIV in Uganda: A Machine Learning Approach. AIDS and Behavior. 2025 Sep 18:1-2. https://doi.org/10.1007/s10461-025-04840-6
 - Najjuuko C, Xu Z, Kizito S, Lu C, Ssewamala FM. Patterns of maternal and child health services utilization and associated socioeconomic disparities in sub-Saharan Africa. Nature Communications. 2025; 16:7840. https://doi.org/10.1038/s41467-025-61350-8
 - Najjuuko C, Brathwaite R, Xu Z, Kizito S, Lu C, Ssewamala FM. Using machine learning to
 predict poor adherence to antiretroviral therapy among adolescents living with HIV in low resource
