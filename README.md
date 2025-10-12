@@ -7,6 +7,11 @@ I am a third year Ph.D. student in the Data and Computational Sciences Program a
 - Ph.D., Data and Computational Sciences | Washington University in St. Louis, St. Louis, MO, USA (2023-date) 
 - B.S., Telecommunications Engineering   | Makerere University, Kampala, UG (2016-2021)
 
+## Projects
+- Uncertainty Estimation for Large Language Models
+- Large Language Models for HIV treatment outcomes monitoring
+- Harnessing Large Language Models for transition to automated Catheter-Associated Urinary Tract Infection Surveillance
+
 ## Technical Skills
 - Programming and Scripting Languages: Python, R, Matlab, LaTeX
 - Tools and Environments: Jupyter, Git/GitHub, Docker, VSCode
