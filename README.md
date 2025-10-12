@@ -7,9 +7,6 @@ I am a third year Ph.D. student in the Data and Computational Sciences Program a
 - Ph.D., Data and Computational Sciences | Washington University in St. Louis, St. Louis, MO, USA (2023-date) 
 - B.S., Telecommunications Engineering   | Makerere University, Kampala, UG (2016-2021)
 
-[View My CV](Claire Najjuuko CV_Mar2025.pdf)  
-[Google Scholar](https://scholar.google.com/citations?user=ClaireNajjuuko)
-
 ## Projects
 - Uncertainty Estimation in Large Language Models
 - Enhancing HIV treatment outcomes monitoring using Machine Learning Predictive Tools
