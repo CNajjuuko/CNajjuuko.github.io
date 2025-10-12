@@ -26,7 +26,7 @@ I am a third year Ph.D. student in the Data and Computational Sciences Program a
 - **Najjuuko C**, Xu Z, Kizito S, Lu C, Ssewamala FM. Patterns of maternal and child health services utilization and associated socioeconomic disparities in sub-Saharan Africa. Nature Communications. 2025; 16:7840. [paper](https://doi.org/10.1038/s41467-025-61350-8)
 - **Najjuuko C**, Brathwaite R, Xu Z, Kizito S, Lu C, Ssewamala FM. Using machine learning to
 predict poor adherence to antiretroviral therapy among adolescents living with HIV in low resource
-settings. AIDS. 2022 Apr 20:10-97. [paper]([https://doi:10.1097/QAD.0000000000004163](https://journals.lww.com/aidsonline/fulltext/2025/07150/using_machine_learning_to_predict_poor_adherence.13.aspx))
+settings. AIDS. 2022 Apr 20:10-97. [paper](https://journals.lww.com/aidsonline/fulltext/2025/07150/using_machine_learning_to_predict_poor_adherence.13.aspx)
 - Tutlam NT, Nabunya P, Kizito S, Migadde H, Ssentumbwe V, Namuwonge F, **Najjuuko C**, Mugisha
 J, Sensoy Bahar O, Mwebembezi A, Ssewamala FM. The Impact of Group-Based Interventions
 on Emotional and Behavioral Difficulties among Adolescents Living with HIV: The Suubi4Stigma
