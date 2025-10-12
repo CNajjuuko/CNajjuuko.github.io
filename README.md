@@ -2,6 +2,7 @@
 
 ## About Me
 I am a third year Ph.D. student in the Data and Computational Sciences Program at Washington University in St. Louis. I am part of the AI for Health Institute Lab. My research interests lie at the intersection of data science and health. My work focuses on leveraging advanced computational methods, including machine learning predictive models and large language models, to drive innovation in healthcare delivery and improve public health outcomes. I am particularly interested in global health, child health, HIV care, and healthcare-associated infections surveillance.
+[View My CV](./Claire_Najjuuko_CV_Oct2025.pdf)
 
 ## Education
 - Ph.D., Data and Computational Sciences | Washington University in St. Louis, St. Louis, MO, USA (2023-date) 
@@ -11,8 +12,6 @@ I am a third year Ph.D. student in the Data and Computational Sciences Program a
 - Uncertainty Estimation in Large Language Models
 - Enhancing HIV treatment outcomes monitoring using Machine Learning Predictive Tools
 - Harnessing Large Language Models for transition to automated Catheter-Associated Urinary Tract Infection Surveillance
-
-[View My CV](./Claire_Najjuuko_CV_Oct2025.pdf)
 
 ## Technical Skills
 - Programming and Scripting Languages: Python, R, Matlab, LaTeX
