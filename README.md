@@ -55,7 +55,7 @@ for a Pilot Randomized Controlled Trial”. JMIR Research Protocols. 2024 Mar 8;
 
 ### 2023
 - White PJ, Okello D, Casey BP, **Najjuuko C**, Lukanga R. Co-designing with engineers for com-
-munity engagement in rural Uganda. Design Science. 2023 Jan;9:e12. [paper](https://doi:10.1017/dsj.2023.10)
+munity engagement in rural Uganda. Design Science. 2023 Jan;9:e12. [paper](https://www.cambridge.org/core/journals/design-science/article/codesigning-with-engineers-for-community-engagement-in-rural-uganda/B24BCAA505CE56ACD61DFCAC93AAFC93?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark)
 
 ### 2021
 - **Najjuuko C**, Ayebare GK, Lukanga R, Mugume E, Okello D. ”A survey of 5G for rural broadband
