@@ -12,6 +12,8 @@ I am a third year Ph.D. student in the Data and Computational Sciences Program a
 - Enhancing HIV treatment outcomes monitoring using Machine Learning Predictive Tools
 - Harnessing Large Language Models for transition to automated Catheter-Associated Urinary Tract Infection Surveillance
 
+[View My CV](./Claire_Najjuuko_CV_Oct2025.pdf)
+
 ## Technical Skills
 - Programming and Scripting Languages: Python, R, Matlab, LaTeX
 - Tools and Environments: Jupyter, Git/GitHub, Docker, VSCode
