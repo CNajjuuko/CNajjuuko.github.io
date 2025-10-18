@@ -13,10 +13,10 @@ I am a third year Ph.D. student in the Data and Computational Sciences Program a
 - Harnessing Large Language Models for transition to automated Catheter-Associated Urinary Tract Infection Surveillance
 
 ## Technical Skills
-- Programming and Scripting Languages: Python, R, Matlab, LaTeX
+- Programming and Scripting Languages: Python, R, SQL, LaTeX
 - Tools and Environments: Jupyter, Git/GitHub, Docker, VSCode
 - Libraries and Frameworks:
-  - ML/DL: scikit-learn, TensorFlow, PyTorch, XGBoost
+  - ML/DL: scikit-learn, TensorFlow, PyTorch
   - LLMs/NLP: HuggingFace Transformers, spaCy, OpenAI API
 - Statistical Software: STATA, SPSS
 
