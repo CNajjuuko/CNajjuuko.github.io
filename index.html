@@ -260,24 +260,27 @@
       font-size: 0.85rem;
     }
 
-    /* PROJECTS */
-    .projects-list {
-      display: grid;
-      gap: 1rem;
-    }
-
-    .project-item {
+    /* PROJECTS (accordion) */
+    .projects-list { display: grid; gap: 0; border: 1px solid var(--line); }
+    
+    .project-accordion {
+      border-bottom: 1px solid var(--line);
       background: var(--white);
-      border: 1px solid var(--line);
-      padding: 1.5rem 1.75rem;
+      overflow: hidden;
+    }
+    .project-accordion:last-child { border-bottom: none; }
+    
+    .project-header {
       display: flex;
       align-items: flex-start;
       gap: 1rem;
-      transition: border-color 0.2s;
+      padding: 1.5rem 1.75rem;
+      cursor: pointer;
+      transition: background 0.2s;
+      user-select: none;
     }
-
-    .project-item:hover { border-color: var(--accent); }
-
+    .project-header:hover { background: var(--accent-light); }
+    
     .project-num {
       font-family: 'Playfair Display', serif;
       font-style: italic;
@@ -285,9 +288,78 @@
       font-size: 1.1rem;
       min-width: 28px;
       margin-top: 2px;
+      flex-shrink: 0;
     }
-
-    .project-text { font-size: 0.95rem; line-height: 1.6; }
+    
+    .project-header-text { flex: 1; }
+    
+    .project-title {
+      font-size: 0.97rem;
+      font-weight: 500;
+      line-height: 1.5;
+      color: var(--ink);
+    }
+    
+    .project-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.5rem; }
+    
+    .tag {
+      font-size: 0.68rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.2rem 0.55rem;
+      border: 1px solid var(--line);
+      color: var(--muted);
+      font-weight: 500;
+    }
+    .tag.published { border-color: var(--accent); color: var(--accent); }
+    .tag.accepted  { border-color: #2a7a4b; color: #2a7a4b; }
+    .tag.progress  { border-color: #b08c2a; color: #b08c2a; }
+    
+    .project-chevron {
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-top: 4px;
+      flex-shrink: 0;
+      transition: transform 0.3s ease;
+    }
+    .project-accordion.open .project-chevron { transform: rotate(180deg); }
+    
+    .project-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.45s ease, padding 0.3s ease;
+      padding: 0 1.75rem 0 calc(1.75rem + 28px + 1rem);
+    }
+    .project-accordion.open .project-body {
+      max-height: 1000px;
+      padding-bottom: 1.75rem;
+    }
+    
+    .project-body-inner { border-top: 1px solid var(--line); padding-top: 1.25rem; }
+    
+    .sub-item {
+      margin-bottom: 1.25rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--line);
+    }
+    .sub-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    
+    .sub-title {
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: var(--ink);
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+    
+    .sub-desc {
+      font-size: 0.87rem;
+      color: var(--muted);
+      line-height: 1.75;
+    }
 
     /* SKILLS */
     .skills-grid {
@@ -549,18 +621,129 @@
     <div class="section-label">Research</div>
     <h2>Projects</h2>
     <div class="projects-list">
-      <div class="project-item">
-        <span class="project-num">01</span>
-        <span class="project-text">Uncertainty Estimation in Large Language Models</span>
+  
+      <div class="project-accordion" id="proj-1">
+        <div class="project-header" onclick="toggleProject('proj-1')">
+          <span class="project-num">01</span>
+          <div class="project-header-text">
+            <div class="project-title">Monitoring HIV Treatment Adherence Using Machine Learning</div>
+            <div class="project-tags">
+              <span class="tag published">Published</span>
+              <span class="tag progress">In Progress</span>
+            </div>
+          </div>
+          <span class="project-chevron">▼</span>
+        </div>
+        <div class="project-body">
+          <div class="project-body-inner">
+            <div class="sub-item">
+              <div class="sub-title">Machine Learning-Based Risk Prediction for ART Adherence <span class="tag published">Published · AIDS</span></div>
+              <p class="sub-desc">Developed and evaluated predictive models to identify adolescents at high risk of suboptimal antiretroviral therapy (ART) adherence in low-resource settings. Applied ensemble methods — Random Forest, Gradient Boosting, and XGBoost — to socio-behavioral and psychosocial data from 702 adolescents living with HIV in Uganda, achieving AUC of 0.71. Models identified key predictors including depression symptoms, stigma experiences, and caregiver support to guide targeted interventions in resource-limited HIV care programs.</p>
+              <a href="https://journals.lww.com/aidsonline/fulltext/2025/07150/using_machine_learning_to_predict_poor_adherence.13.aspx" class="pub-link" target="_blank">View paper →</a>
+            </div>
+            <div class="sub-item">
+              <div class="sub-title">AI-Based Adherence Monitoring Using Clinical LLMs <span class="tag progress">In Progress</span></div>
+              <p class="sub-desc">Developing a large language model-based system for automated adherence monitoring using routinely collected health record data in HIV clinics. Implementing NLP and LLM pipelines to extract adherence indicators from clinical notes and detect ART non-adherence patterns early, enabling timely clinical intervention in resource-limited settings.</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="project-item">
-        <span class="project-num">02</span>
-        <span class="project-text">Enhancing HIV Treatment Outcomes Monitoring using Machine Learning Predictive Tools</span>
+  
+      <div class="project-accordion" id="proj-2">
+        <div class="project-header" onclick="toggleProject('proj-2')">
+          <span class="project-num">02</span>
+          <div class="project-header-text">
+            <div class="project-title">Machine Learning for Substance Use and HIV Risk Monitoring</div>
+            <div class="project-tags">
+              <span class="tag published">Published</span>
+              <span class="tag progress">In Progress</span>
+            </div>
+          </div>
+          <span class="project-chevron">▼</span>
+        </div>
+        <div class="project-body">
+          <div class="project-body-inner">
+            <div class="sub-item">
+              <div class="sub-title">Predictors of Illicit Substance Use in Young Adults with HIV <span class="tag published">Published · AIDS and Behavior</span></div>
+              <p class="sub-desc">Applied machine learning to longitudinal cohort data from 702 young adults living with HIV in low-resource Ugandan communities to identify key predictors of problematic substance use. Used feature importance analysis and SHAP values to interpret model predictions, surfacing behavioral, psychosocial, and structural risk factors including depression, household instability, and peer influence. Findings inform targeted screening and prevention strategies within HIV care programs.</p>
+              <a href="https://doi.org/10.1007/s10461-025-04840-6" class="pub-link" target="_blank">View paper →</a>
+            </div>
+            <div class="sub-item">
+              <div class="sub-title">UMAT-R AI: Multimodal Prediction of 30-Day Substance Use and HIV-Risk Outcomes <span class="tag progress">In Progress</span></div>
+              <p class="sub-desc">Designing an AI pipeline that integrates baseline surveys, app engagement metrics, and coach-client text messages from the UMAT-R digital intervention to enable early risk prediction and support personalized recovery and HIV-prevention care. Developing text-only and multimodal predictive models using TF-IDF/Word2Vec and clinical BERT variants (ClinicalBERT, BioClinicalBERT), combined with survey features. Ongoing work includes transformer-based topic modeling (BERTopic) and self-supervised adaptation of transformer encoders on UMAT-R messages.</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="project-item">
-        <span class="project-num">03</span>
-        <span class="project-text">Harnessing Large Language Models for Transition to Automated Catheter-Associated Urinary Tract Infection Surveillance</span>
+  
+      <div class="project-accordion" id="proj-3">
+        <div class="project-header" onclick="toggleProject('proj-3')">
+          <span class="project-num">03</span>
+          <div class="project-header-text">
+            <div class="project-title">Hybrid AI Systems for Infection Surveillance and Clinical Workflows</div>
+            <div class="project-tags">
+              <span class="tag accepted">Accepted · Clinical Infectious Diseases</span>
+            </div>
+          </div>
+          <span class="project-chevron">▼</span>
+        </div>
+        <div class="project-body">
+          <div class="project-body-inner">
+            <div class="sub-item">
+              <div class="sub-title">Hybrid LLM + Rules-Based CAUTI Surveillance <span class="tag accepted">Accepted</span></div>
+              <p class="sub-desc">Developed and validated a hybrid surveillance system combining rule-based NHSN logic with LLM-driven symptom extraction from clinical notes for catheter-associated urinary tract infection (CAUTI) surveillance. Implemented the Clinical Entity Augmented Retrieval (CLEAR) framework using BIOMed_NER for entity recognition, BioClinicalBERT embeddings for semantic similarity, and GPT-4o for symptom extraction from flagged cases at Barnes-Jewish Hospital (2021–2024). The hybrid system achieved 90.0% sensitivity and 93.5% specificity — outperforming rules-based approaches (80.4% sensitivity) and standalone LLM methods (88.7% sensitivity) — while reducing infection preventionist chart review workload by approximately 66%. Co-first author.</p>
+            </div>
+          </div>
+        </div>
       </div>
+  
+      <div class="project-accordion" id="proj-4">
+        <div class="project-header" onclick="toggleProject('proj-4')">
+          <span class="project-num">04</span>
+          <div class="project-header-text">
+            <div class="project-title">Quantifying Uncertainty in Clinical Prediction Models</div>
+            <div class="project-tags">
+              <span class="tag progress">In Progress</span>
+            </div>
+          </div>
+          <span class="project-chevron">▼</span>
+        </div>
+        <div class="project-body">
+          <div class="project-body-inner">
+            <div class="sub-item">
+              <div class="sub-title">Conformal Prediction for Emergency Medical Services <span class="tag progress">In Progress</span></div>
+              <p class="sub-desc">Building and evaluating conformal prediction-based models for emergency medical services (EMS) that predict intervention protocols, medication types, and quantities from multimodal data combining free-text symptom descriptions and vital signs. Developing calibrated, class-fair prediction sets and selective-classification strategies to provide trustworthy decision support for high-stakes clinical interventions.</p>
+            </div>
+            <div class="sub-item">
+              <div class="sub-title">Uncertainty Quantification Methods for Clinical Language Models <span class="tag progress">In Progress</span></div>
+              <p class="sub-desc">Conducting a benchmark study characterizing uncertainty quantification methods for clinical language models, evaluating their utility and reliability in real-world clinical prediction settings. Comparing approaches including Monte Carlo dropout, ensemble methods, and calibration techniques across multiple clinical tasks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="project-accordion" id="proj-5">
+        <div class="project-header" onclick="toggleProject('proj-5')">
+          <span class="project-num">05</span>
+          <div class="project-header-text">
+            <div class="project-title">Maternal and Child Health Service Utilization in Sub-Saharan Africa</div>
+            <div class="project-tags">
+              <span class="tag published">Published · Nature Communications</span>
+            </div>
+          </div>
+          <span class="project-chevron">▼</span>
+        </div>
+        <div class="project-body">
+          <div class="project-body-inner">
+            <div class="sub-item">
+              <div class="sub-title">Patterns of MCH Services Utilization and Socioeconomic Disparities <span class="tag published">Published · Nature Communications</span></div>
+              <p class="sub-desc">Analyzed patterns of maternal and child health services utilization and associated socioeconomic disparities across sub-Saharan Africa using machine learning on Demographic and Health Survey data from 352,363 mother-child pairs across 35 countries. Identified critical service utilization patterns linked to child mortality outcomes, providing evidence for targeted policy and health system strengthening.</p>
+              <a href="https://doi.org/10.1038/s41467-025-61350-8" class="pub-link" target="_blank">View paper →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
     </div>
   </section>
 
