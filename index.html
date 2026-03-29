@@ -1,4 +1,4 @@
-<title>Claire Najjuuko | PhD Student</title>
+<!-- <title>Claire Najjuuko | PhD Student</title>
 <meta name="description" content="Claire Najjuuko is a PhD student working on machine learning, healthcare AI, and uncertainty quantification.">
 
 <body>
@@ -22,4 +22,712 @@
 
     <h2>Contact</h2>
     <p>Email: your_email_here</p>
+</body> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claire Najjuuko | PhD Student</title>
+  <meta name="description" content="Claire Najjuuko - Data Science PhD student at Washington University in St. Louis. Research in machine learning, healthcare AI, and uncertainty quantification." />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f7f4ef;
+      --ink: #1a1612;
+      --muted: #6b6459;
+      --accent: #b5501e;
+      --accent-light: #f0e8e0;
+      --line: #d9d1c5;
+      --white: #ffffff;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: var(--bg);
+      border-bottom: 1px solid var(--line);
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
+
+    .nav-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      letter-spacing: 0.02em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--accent); }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-top: 56px;
+    }
+
+    .hero-left {
+      padding: 6rem 4rem 4rem 6rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .hero-tag {
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .hero-tag::before {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 1px;
+      background: var(--accent);
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.8rem, 5vw, 4.5rem);
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 1.5rem;
+      letter-spacing: -0.01em;
+    }
+
+    .hero-bio {
+      font-size: 1rem;
+      color: var(--muted);
+      max-width: 480px;
+      line-height: 1.8;
+      margin-bottom: 2.5rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.75rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: all 0.2s;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: var(--white);
+      border: 1px solid var(--accent);
+    }
+
+    .btn-primary:hover {
+      background: transparent;
+      color: var(--accent);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--ink);
+      border: 1px solid var(--line);
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--ink);
+    }
+
+    .hero-right {
+      position: relative;
+      background: var(--accent-light);
+      overflow: hidden;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
+    .hero-right img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      opacity: 0.92;
+    }
+
+    .hero-right .overlay-text {
+      position: absolute;
+      bottom: 2rem;
+      right: 2rem;
+      text-align: right;
+    }
+
+    .overlay-text span {
+      display: block;
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 0.95rem;
+      color: var(--ink);
+      opacity: 0.6;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 5rem 6rem;
+      border-top: 1px solid var(--line);
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    section.visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    .section-label {
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 2.5rem;
+    }
+
+    /* EDUCATION */
+    .edu-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    .edu-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      padding: 1.75rem;
+      position: relative;
+    }
+
+    .edu-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 3px;
+      height: 100%;
+      background: var(--accent);
+    }
+
+    .edu-degree {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .edu-field {
+      color: var(--accent);
+      font-size: 0.85rem;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+    }
+
+    .edu-school {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    /* PROJECTS */
+    .projects-list {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .project-item {
+      background: var(--white);
+      border: 1px solid var(--line);
+      padding: 1.5rem 1.75rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      transition: border-color 0.2s;
+    }
+
+    .project-item:hover { border-color: var(--accent); }
+
+    .project-num {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      color: var(--accent);
+      font-size: 1.1rem;
+      min-width: 28px;
+      margin-top: 2px;
+    }
+
+    .project-text { font-size: 0.95rem; line-height: 1.6; }
+
+    /* SKILLS */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .skill-group {
+      background: var(--white);
+      border: 1px solid var(--line);
+      padding: 1.5rem;
+    }
+
+    .skill-group-title {
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+      font-weight: 500;
+    }
+
+    .skill-group p {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    /* PUBLICATIONS */
+    .pub-year {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin: 2rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--line);
+      color: var(--accent);
+    }
+
+    .pub-year:first-child { margin-top: 0; }
+
+    .pub-item {
+      padding: 1.25rem 0;
+      border-bottom: 1px solid var(--line);
+      font-size: 0.9rem;
+      line-height: 1.7;
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+
+    .pub-item:last-child { border-bottom: none; }
+
+    .pub-dot {
+      min-width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+      margin-top: 10px;
+    }
+
+    .pub-text { flex: 1; }
+
+    .pub-text strong { font-weight: 500; }
+
+    .pub-link {
+      display: inline-block;
+      margin-top: 0.4rem;
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .pub-link:hover { border-color: var(--accent); }
+
+    /* NEWS */
+    .news-list { display: grid; gap: 1rem; }
+
+    .news-item {
+      background: var(--white);
+      border: 1px solid var(--line);
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+      transition: border-color 0.2s;
+    }
+
+    .news-item:hover { border-color: var(--accent); }
+
+    .news-date {
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 500;
+      min-width: 80px;
+    }
+
+    .news-title {
+      font-size: 0.92rem;
+      color: var(--ink);
+      text-decoration: none;
+      line-height: 1.5;
+    }
+
+    .news-title:hover { color: var(--accent); }
+
+    /* FOOTER */
+    footer {
+      background: var(--ink);
+      color: var(--bg);
+      padding: 3rem 6rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid var(--line);
+    }
+
+    footer .foot-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+    }
+
+    footer .foot-links {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    footer a {
+      color: var(--bg);
+      text-decoration: none;
+      font-size: 0.8rem;
+      opacity: 0.6;
+      transition: opacity 0.2s;
+    }
+
+    footer a:hover { opacity: 1; }
+
+    /* ANIMATIONS */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero-left > * {
+      animation: fadeUp 0.7s ease forwards;
+      opacity: 0;
+    }
+
+    .hero-tag { animation-delay: 0.1s; }
+    h1 { animation-delay: 0.25s; }
+    .hero-bio { animation-delay: 0.4s; }
+    .hero-actions { animation-delay: 0.55s; }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; min-height: auto; }
+      .hero-right { height: 50vw; }
+      .hero-left { padding: 5rem 2rem 3rem; }
+      section { padding: 4rem 2rem; }
+      .edu-grid { grid-template-columns: 1fr; }
+      footer { flex-direction: column; gap: 1.5rem; padding: 2.5rem 2rem; text-align: center; }
+      nav { padding: 0 1.5rem; }
+      .nav-links { gap: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <span class="nav-name">Claire Najjuuko</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#news">News</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-left">
+      <div class="hero-tag">Washington University in St. Louis</div>
+      <h1>Claire<br>Najjuuko</h1>
+      <p class="hero-bio">
+        Third year Ph.D. student in Data and Computational Sciences. 
+        My research sits at the intersection of machine learning and global health — 
+        building predictive tools and leveraging large language models to improve 
+        healthcare delivery and public health outcomes.
+      </p>
+      <div class="hero-actions">
+        <a href="Claire_Najjuuko_CV_Oct2025.pdf" class="btn btn-primary" target="_blank">Download CV</a>
+        <a href="#publications" class="btn btn-secondary">View Publications</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img src="ClaireProfilePhoto.jpg" alt="Claire Najjuuko" />
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">Background</div>
+    <h2>About Me</h2>
+    <p style="max-width: 720px; color: var(--muted); font-size: 1rem; line-height: 1.9;">
+      I am part of the AI for Health Institute Lab at WashU. My work focuses on leveraging advanced computational 
+      methods, including machine learning predictive models and large language models, to drive innovation in 
+      healthcare delivery and improve public health outcomes. I am particularly interested in global health, child health, 
+      HIV care, and healthcare-associated infections surveillance.
+    </p>
+
+    <h2 style="margin-top: 3rem;">Education</h2>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <div class="edu-degree">Ph.D. Student</div>
+        <div class="edu-field">Data and Computational Sciences</div>
+        <div class="edu-school">Washington University in St. Louis, St. Louis, MO, USA &mdash; 2023–present</div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-degree">B.S., Telecommunications Engineering</div>
+        <div class="edu-field">Telecommunications Engineering</div>
+        <div class="edu-school">Makerere University, Kampala, Uganda &mdash; 2016–2021</div>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 3rem;">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <div class="skill-group-title">Languages</div>
+        <p>Python, R, SQL, LaTeX</p>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Tools & Environments</div>
+        <p>Jupyter, Git/GitHub, Docker, VSCode</p>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">ML / Deep Learning</div>
+        <p>scikit-learn, TensorFlow, PyTorch</p>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">LLMs / NLP</div>
+        <p>HuggingFace Transformers, spaCy, OpenAI API</p>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Statistical Software</div>
+        <p>STATA, SPSS</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">Research</div>
+    <h2>Projects</h2>
+    <div class="projects-list">
+      <div class="project-item">
+        <span class="project-num">01</span>
+        <span class="project-text">Uncertainty Estimation in Large Language Models</span>
+      </div>
+      <div class="project-item">
+        <span class="project-num">02</span>
+        <span class="project-text">Enhancing HIV Treatment Outcomes Monitoring using Machine Learning Predictive Tools</span>
+      </div>
+      <div class="project-item">
+        <span class="project-num">03</span>
+        <span class="project-text">Harnessing Large Language Models for Transition to Automated Catheter-Associated Urinary Tract Infection Surveillance</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications">
+    <div class="section-label">Academic Work</div>
+    <h2>Publications</h2>
+
+    <div class="pub-year">2025</div>
+
+    <div class="pub-item">
+      <div class="pub-dot"></div>
+      <div class="pub-text">
+        <strong>Najjuuko C</strong>, Brathwaite R, Mutumba M, Childress S, Nannono S, Namatovu P, Lu C, Ssewamala FM. Identifying Predictors of Problematic Substance Use Among Youth Living with HIV in Uganda: A Machine Learning Approach. <em>AIDS and Behavior.</em> 2025.
+        <br><a href="https://doi.org/10.1007/s10461-025-04840-6" class="pub-link" target="_blank">View paper →</a>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-dot"></div>
+      <div class="pub-text">
+        <strong>Najjuuko C</strong>, Xu Z, Kizito S, Lu C, Ssewamala FM. Patterns of maternal and child health services utilization and associated socioeconomic disparities in sub-Saharan Africa. <em>Nature Communications.</em> 2025; 16:7840.
+        <br><a href="https://doi.org/10.1038/s41467-025-61350-8" class="pub-link" target="_blank">View paper →</a>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-dot"></div>
+      <div class="pub-text">
+        <strong>Najjuuko C</strong>, Brathwaite R, Xu Z, Kizito S, Lu C, Ssewamala FM. Using machine learning to predict poor adherence to antiretroviral therapy among adolescents living with HIV in low resource settings. <em>AIDS.</em> 2025.
+        <br><a href="https://journals.lww.com/aidsonline/fulltext/2025/07150/using_machine_learning_to_predict_poor_adherence.13.aspx" class="pub-link" target="_blank">View paper →</a>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-dot"></div>
+      <div class="pub-text">
+        Tutlam NT, Nabunya P, Kizito S, Migadde H, Ssentumbwe V, Namuwonge F, <strong>Najjuuko C</strong>, et al. The Impact of Group-Based Interventions on Emotional and Behavioral Difficulties among Adolescents Living with HIV: The Suubi4Stigma Cluster Randomized Controlled Trial. <em>Journal of Child and Family Studies.</em> 2025.
+        <br><a href="https://doi.org/10.1007/s10826-025-03015-0" class="pub-link" target="_blank">View paper →</a>
+      </div>
+    </div>
+
+    <div class="pub-year">2024</div>
+
+    <div class="pub-item">
+      <div class="pub-dot"></div>
+      <div class="pub-text">
+        Nabunya P, Migadde H, Namuwonge F, Mugisha J, Kirabo W, Ssentumbwe V, <strong>Najjuuko C</strong>, et al. Feasibility and acceptability of Group-based stigma reduction interventions for adolescents living with HIV and their caregivers: the Suubi4Stigma Randomized Clinical Trial. <em>AIDS and Behavior.</em> 2024.
+        <br><a href="https://doi.org/10.1007/s10461-024-04284-4" class="pub-link" target="_blank">View paper →</a>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-dot"></div>
+      <div class="pub-text">
+        Nabunya P, Ssewamala FM, Kizito S, Mugisha J, Brathwaite R, Neilands TB, Migadde H, Namuwonge F, Ssentumbwe V, <strong>Najjuuko C</strong>, Bahar OS. Preliminary Impact of Group-Based Interventions on Stigma, Mental Health, and Treatment Adherence Among Adolescents Living with HIV in Uganda. <em>The Journal of Pediatrics.</em> 2024.
+        <br><a href="https://doi.org/10.1016/j.jpeds.2024.113983" class="pub-link" target="_blank">View paper →</a>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-dot"></div>
+      <div class="pub-text">
+        Kizito S, Namuwonge F, Nabayinda J, Nalwanga D, <strong>Najjuuko C</strong>, et al. A Cluster-Randomized Controlled Trial of an Economic Strengthening Intervention to Enhance Antiretroviral Therapy Adherence among Adolescents Living with HIV. <em>AIDS and Behavior.</em> 2024.
+        <br><a href="https://doi.org/10.1007/s10461-024-04268-4" class="pub-link" target="_blank">View paper →</a>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-dot"></div>
+      <div class="pub-text">
+        Nabunya P, Cavazos-Rehg P, Mugisha J, Kasson E, Namuyaba OI, <strong>Najjuuko C</strong>, et al. An mHealth Intervention to Address Depression and Improve Antiretroviral Therapy Adherence Among Youths Living With HIV in Uganda. <em>JMIR Research Protocols.</em> 2024.
+        <br><a href="https://doi.org/10.2196/54635" class="pub-link" target="_blank">View paper →</a>
+      </div>
+    </div>
+
+    <div class="pub-year">2023</div>
+
+    <div class="pub-item">
+      <div class="pub-dot"></div>
+      <div class="pub-text">
+        White PJ, Okello D, Casey BP, <strong>Najjuuko C</strong>, Lukanga R. Co-designing with engineers for community engagement in rural Uganda. <em>Design Science.</em> 2023.
+        <br><a href="https://www.cambridge.org/core/journals/design-science/article/codesigning-with-engineers-for-community-engagement-in-rural-uganda/B24BCAA505CE56ACD61DFCAC93AAFC93" class="pub-link" target="_blank">View paper →</a>
+      </div>
+    </div>
+
+    <div class="pub-year">2021</div>
+
+    <div class="pub-item">
+      <div class="pub-dot"></div>
+      <div class="pub-text">
+        <strong>Najjuuko C</strong>, Ayebare GK, Lukanga R, Mugume E, Okello D. A survey of 5G for rural broadband connectivity. <em>IST-Africa Conference.</em> 2021.
+        <br><a href="https://ieeexplore.ieee.org/abstract/document/9576832" class="pub-link" target="_blank">View paper →</a>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-dot"></div>
+      <div class="pub-text">
+        Lukanga R, Ayebare GK, <strong>Najjuuko C</strong>, Mugume E, Okello D. Leveraging TV white spaces for rural broadband connectivity. <em>IST-Africa Conference.</em> 2021.
+        <br><a href="https://ieeexplore.ieee.org/document/9576962" class="pub-link" target="_blank">View paper →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS -->
+  <section id="news">
+    <div class="section-label">Updates</div>
+    <h2>News</h2>
+    <div class="news-list">
+      <div class="news-item">
+        <span class="news-date">Aug 2025</span>
+        <a href="https://engineering.washu.edu/news/2025/Data-science-uncovers-patterns-in-health-service-use-linked-to-child-mortality.html" class="news-title" target="_blank">
+          Data science uncovers patterns in health service use linked to child mortality
+        </a>
+      </div>
+      <div class="news-item">
+        <span class="news-date">Mar 2025</span>
+        <a href="https://engineering.washu.edu/news/2025/Machine-learning-could-help-predict-adherence-to-HIV-treatment-in-adolescents.html" class="news-title" target="_blank">
+          Machine learning could help predict adherence to HIV treatment in adolescents
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span class="foot-name">Claire Najjuuko</span>
+    <div class="foot-links">
+      <a href="https://github.com/CNajjuuko" target="_blank">GitHub</a>
+      <a href="Claire_Najjuuko_CV_Oct2025.pdf" target="_blank">CV</a>
+    </div>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('section').forEach(s => observer.observe(s));
+  </script>
+
 </body>
+</html>
