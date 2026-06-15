@@ -719,19 +719,28 @@
         </div>
         <div class="project-body">
           <div class="project-body-inner">
+            
             <div class="sub-item">
               <div class="sub-title">CURA: Clinical Uncertainty Risk Alignment for Language Model-Based Risk Prediction <span class="tag published">Published · ACL 2026</span></div>
               <p class="sub-desc">Developed CURA, a clinical uncertainty risk alignment framework for language model-based risk prediction. CURA produces calibrated, uncertainty-aware predictions that enable more reliable and trustworthy clinical decision support.</p>
               <a href="https://arxiv.org/abs/2604.14651" class="pub-link" target="_blank">View paper →</a>
             </div>
+            
             <div class="sub-item">
               <div class="sub-title">Conformal Prediction for Emergency Medical Services <span class="tag progress">In Progress</span></div>
               <p class="sub-desc">Building and evaluating conformal prediction-based models for emergency medical services (EMS) that predict intervention protocols, medication types, and quantities from multimodal data combining free-text symptom descriptions and vital signs. Developing calibrated, class-fair prediction sets and selective-classification strategies to provide trustworthy decision support for high-stakes clinical interventions.</p>
             </div>
+
+            <div class="sub-item">
+              <div class="sub-title">Uncertainty-Aware AI for OR-to-ICU Handoff Decision Support <span class="tag progress">In Progress</span></div>
+              <p class="sub-desc">Developing and evaluating an uncertainty estimation framework for AI-predicted postoperative complications (acute kidney injury, delirium, deep vein thrombosis, pulmonary embolism, and pneumonia) to support OR-to-ICU handoff decision-making. The framework uses a two-stage conformal prediction approach: in the first stage, a conformal predictor generates preliminary prediction sets with a coverage guarantee; in the second stage, confident singleton rule-outs where the model predicts {Low Risk} alone, are re-evaluated against similar patients in the calibration set. If the rule-out is not well-supported, the prediction is expanded to {Low Risk, High Risk}, signaling uncertainty to the clinician rather than issuing a potentially dangerous confident rule-out. Preliminary results show that this two-stage approach reduces false negative rates across all five complication models. A within-subjects user study will evaluate which uncertainty communication format best supports handoff decisions.</p>
+            </div>
+            
             <div class="sub-item">
               <div class="sub-title">Uncertainty Quantification Methods for Clinical Language Models <span class="tag progress">In Progress</span></div>
               <p class="sub-desc">Conducting a benchmark study characterizing uncertainty quantification methods for clinical language models, evaluating their utility and reliability in real-world clinical prediction settings. Comparing approaches including Monte Carlo dropout, ensemble methods, and calibration techniques across multiple clinical tasks.</p>
             </div>
+            
           </div>
       </div>
     </div>
